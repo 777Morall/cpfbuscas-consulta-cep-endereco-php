@@ -1,0 +1,24 @@
+{
+  "name": "cpfbuscas-examples/cpfbuscas-consulta-cep-endereco-php",
+  "type": "project",
+  "description": "Exemplos PHP para buscar por CEP ou endereço com UF, logradouro e cidade usando a API CPF Buscas.",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "scripts": {
+    "test": "php tests/run.php"
+  },
+  "keywords": [
+    "php",
+    "cpfbuscas",
+    "api-rest",
+    "curl",
+    "exemplos-php",
+    "consulta-cep",
+    "cep",
+    "endereco"
+  ]
+}

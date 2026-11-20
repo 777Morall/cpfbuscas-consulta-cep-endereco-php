@@ -1,0 +1,25 @@
+{
+  "valid": [
+    [
+      "cep",
+      "00000-000"
+    ],
+    [
+      "endereco",
+      "sp",
+      "Rua Teste & Exemplo",
+      "Cidade Exemplo"
+    ]
+  ],
+  "invalid": [
+    [
+      "cep",
+      "abc"
+    ],
+    [
+      "endereco",
+      "XX",
+      "Rua Teste"
+    ]
+  ]
+}

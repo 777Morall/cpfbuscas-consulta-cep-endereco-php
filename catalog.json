@@ -1,0 +1,45 @@
+{
+  "cep": {
+    "key": "cep",
+    "module": "Localização",
+    "label": "CEP",
+    "method": "GET",
+    "path": "/api/v1/query/cep",
+    "params": [
+      {
+        "name": "cep",
+        "label": "CEP",
+        "required": true
+      }
+    ]
+  },
+  "endereco": {
+    "key": "endereco",
+    "module": "Localização",
+    "label": "Endereço",
+    "method": "GET",
+    "path": "/api/v1/query/endereco",
+    "params": [
+      {
+        "name": "uf",
+        "label": "UF",
+        "required": true
+      },
+      {
+        "name": "logradouro",
+        "label": "Logradouro",
+        "required": true
+      },
+      {
+        "name": "cidade",
+        "label": "Cidade",
+        "required": false
+      },
+      {
+        "name": "limit",
+        "label": "Limite",
+        "required": false
+      }
+    ]
+  }
+}
